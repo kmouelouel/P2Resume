@@ -1,6 +1,6 @@
  /* 
-        bio contains a name, role, welcomeMessage, contacts object and skills array. The contacts object should contain (but doesn't have to) a mobile number, email address, github username, twitter handle and location. I have added a github link 
-        */
+         bio contains a name, role, welcomeMessage, contacts object and skills array. The contacts object should contain (but doesn't have to) a mobile number, email address, github username, twitter handle and location. I have added a github link 
+         */
  var bio = {
      'name': 'kahina Mouelouel',
      'role': 'Front-End Web Developer',
@@ -8,7 +8,7 @@
          'mobile': '925-705-1175',
          'email': 'mouelouel@gmail.com',
          'github': 'kmouelouel',
-		 'twitter': '@kmouelouel',
+         'twitter': '@kmouelouel',
          'location': 'Concord,ca, US'
      },
      'welcomeMessage': 'In order to succeed,we must first believe that we can ; work in your dream while everyone else is sleeping.',
@@ -21,7 +21,7 @@
      var formattedmobile = HTMLmobile.replace("%data%", bio.contacts.mobile);
      var formattedemail = HTMLemail.replace("%data%", bio.contacts.email);
      var formattedgithub = HTMLgithub.replace("%data%", bio.contacts.github);
-	 var formattedtwitter=HTMLtwitter.replace("%data%", bio.contacts.twitter);
+     var formattedtwitter = HTMLtwitter.replace("%data%", bio.contacts.twitter);
      var formattedlocation = HTMLlocation.replace("%data%", bio.contacts.location);
      var formattedImg = HTMLbioPic.replace("%data%", bio.biopic);
      var formattedmsg = HTMLwelcomeMsg.replace("%data%", bio.welcomeMessage);
@@ -32,12 +32,12 @@
      $("#topContacts").append(formattedmobile)
          .append(formattedemail)
          .append(formattedgithub)
-		 .append(formattedtwitter)
+         .append(formattedtwitter)
          .append(formattedlocation);
      $("#footerContacts").append(formattedmobile)
          .append(formattedemail)
          .append(formattedgithub)
-		 .append(formattedtwitter)
+         .append(formattedtwitter)
          .append(formattedlocation);
      if (bio.skills.length > 0) {
          $("#header").append(HTMLskillsStart);
@@ -175,6 +175,7 @@
      }
  };
  projects.display();
+
  function inName(name) {
      console.log(name);
      var newName = name;
