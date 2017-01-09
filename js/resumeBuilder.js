@@ -9,10 +9,10 @@
          'email': 'mouelouel@gmail.com',
          'github': 'kmouelouel',
          'twitter': '@kmouelouel',
-         'location': 'Concord,ca, US'
+         'location': 'Concord,Ca, US'
      },
      'welcomeMessage': 'In order to succeed,we must first believe that we can ; work in your dream while everyone else is sleeping.',
-     'skills': ['C/C#', 'Training ArcGIS', 'Consulting Navision', 'SQL Server', 'Microsoft Office', 'HTML & CSS'],
+     'skills': ['C/C#', 'ArcGIS', 'Microsoft Navision', 'SQL Server', 'Microsoft Office', 'HTML & CSS'],
      'biopic': 'images/me.jpg',
  };
  bio.display = function() {
@@ -104,7 +104,14 @@
  };
  education.display();
  var work = {
-     'jobs': [{
+     'jobs': [
+	  {
+         'employer': 'Tripit, San Fransisco',
+         'title': 'SW Design Engineer I',
+         'location': 'San Francisco, California',
+         'dates': 'July 2016 -October 2016',
+         'description': '•Worked on bug fixing in order to learn how to install, to set up and to work with the development environment which included Symfony, php Strom, MySQL Workbench, GitHub and Vagrant.<br> •Designed and implemented a new billing page, and added constraint validation using HTML, CSS, Bootstrap, JavaScript, JQuery, PHP and MySQL by raising the control of the user inputs by 99%.'
+     }, {
          'employer': 'OXIA Algeria',
          'title': 'Developer Consultant',
          'location': 'Tizi Ouzou, Algeria',
@@ -149,7 +156,8 @@
          'description': 'Designed mockup with HTML and CSS,I developed a responsive website that displayed images, descriptions and links.',
          'images': [
              'images/project1.jpg',
-             'images/project2.jpg'
+             'images/project2.jpg',
+             'images/project3.jpg'
          ]
      }]
 
